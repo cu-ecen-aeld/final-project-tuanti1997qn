@@ -1,0 +1,4 @@
+config BR2_PACKAGE_IMU_READER
+	bool "imu-reader"
+	help
+	  Include imu reader kernel driver

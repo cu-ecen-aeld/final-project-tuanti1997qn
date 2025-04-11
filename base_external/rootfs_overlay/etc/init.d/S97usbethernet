@@ -1,0 +1,7 @@
+modprobe g_ether
+ifconfig usb0 up
+HOST_USB_IP=10.42.0.1
+TARGET_USB_IP=10.42.0.2
+ifconfig usb0 $TARGET_USB_IP netmask 255.255.255.0
+route add default gw $HOST_USB_IP
+

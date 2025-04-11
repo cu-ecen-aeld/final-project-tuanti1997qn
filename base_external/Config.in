@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_tuanti1997qn_final_project_PATH/package/imu-reader/Config.in"
+source "$BR2_EXTERNAL_tuanti1997qn_final_project_PATH/package/AHRS/Config.in"

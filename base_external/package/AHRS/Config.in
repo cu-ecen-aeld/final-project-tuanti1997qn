@@ -1,0 +1,4 @@
+config BR2_PACKAGE_IMU_READER_USER
+	bool "imu-reader-user"
+	help
+	  Include imu reader software 
